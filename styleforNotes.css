@@ -1,0 +1,119 @@
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');*/
+
+.main-div{
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    
+    background-image: url("keepnotes2.jpg");
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 100%;
+  }
+
+  .container1{
+    /*margin: 5px 50px 30px 50px;*/
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flexbox;
+    background-color: rgb(52, 47, 47);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 30px 25px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(12, 12, 28);
+    margin-top: 15px;
+}
+
+form input{
+    width: 100%;
+    height: 27px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 3px 6px 5px 3px;
+}
+
+form textarea{
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 3px 6px 5px 3px;
+    resize: vertical;
+}
+form button{
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    background-color: rgb(8, 8, 150);
+    color: aliceblue;
+}
+
+form button:hover{
+    background-color: rgb(66, 66, 132);
+}
+div h2{
+    margin-left: 50px;
+}
+
+.note{
+    width: 0 auto;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(52, 47, 47);
+    max-width: 170px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 4px 40px 20px;
+    float: left;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+}
+
+.del-btn{
+    width: auto;
+    background-color: red;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 1px 0px 5px;
+}
+button.edit-btn{
+    width: auto;
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin: 20px 1px 0px 1px;
+}
+div p.n-counter{
+    color: rgb(229, 229, 19);
+} 
+
+div h3.n-title{
+    color: whitesmoke;
+}
+
+div p.n-text{
+    color: whitesmoke;
+}

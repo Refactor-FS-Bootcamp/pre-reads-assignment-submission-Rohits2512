@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleforNotes.css">
+</head>
+<body>
+    <div class="main-div">
+        <h1>My Notes</h1>
+        <div class="container1">
+            
+            <form action="">
+                <input type="text" id="note-title" placeholder="Title">
+                <textarea id="note-text" placeholder="Your Note..."></textarea>
+            
+                <button id="add-btn">Add Note</button>
+            </form>
+        </div>
+
+        <h2>Notes</h2>
+        <!-- <div class="container2"> -->
+            
+            <div id="notes">
+                
+                    <div class="note">
+                        <p class="n-counter">Note ${index + 1}</p>
+                        <h3 class="n-title"> $element.title </h3>
+                        <p class="n-text"> $element.text</p>
+                        <button class="del-btn">Delete Note</button>
+                        <button class="edit-btn">Edit Note</button>
+                        <p id="time"></p>
+                    </div>
+            </div>
+    
+    </div>
+
+    <script src="MyNotes.js"></script>
+</body>
+</html>
