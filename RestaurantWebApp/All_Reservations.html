@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+            color: blue;
+        }
+        table{
+           margin-left: auto;
+           margin-right: auto;
+           padding: 15px;
+        }
+        table tr th{
+            padding: 15px;
+        }
+        tbody{
+            margin-left:auto ;
+            margin-right: auto;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="heading">
+            <h2>Reservation List</h2>
+        </div>
+        
+        <table>
+            <thead>
+                <tr style="padding:20px">
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Data</th>
+                    <th>Time</th>
+                    <th>People</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                <div class="list">
+                    <tr>
+                    <td>${index+1}</td>
+                    <td>${element.name}</td>
+                    <td>${element.date}</td>
+                    <td>${element.time}</td>
+                    <td>${element.people}</td>
+            </tr>
+        </div> 
+            </tbody>
+        </table>
+        </div>
+<script src="restaurantScript.js"></script>
+  
+</body>
+</html>

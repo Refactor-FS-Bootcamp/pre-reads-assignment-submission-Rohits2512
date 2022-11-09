@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    
+
+    <link rel="stylesheet" href="restaurantStyle.css">
+    <link rel="stylesheet" href="resStyle.css">
+</head>
+<body>
+    <div class="res-container">
+        <div class="header">
+            <h2>MAKE RESERVATION</h2>
+        </div>
+        <form class="form" onsubmit="event.preventDefault()">
+            <div class="form-control">
+                <label for="">Name</label><hr>
+                <input type="text" class="" id="fname" placeholder="Enter Your name">
+            </div> 
+            <div class="form-control">
+                <label for="">Reservation Date</label><hr>
+                <input type="date" class="" id="date" placeholder="dd-mm-yyyy">
+            </div>
+            <div class="form-control"> 
+                <label for="">Reservation Time</label><hr>
+                <input type="time" class="" id="rtime" placeholder="--:--">
+            </div>
+            <div class="form-control">
+
+                <div id="peopl">
+                <label for="">Number of People</label><hr>
+                <input id="people" class="btn2" type="number" min=1 max=110>
+                <button onclick="increment()"></button>
+                <button onclick="decrement()"></button>
+            </div>
+            </div>
+            <div class="form-control">
+            <!--<input type="submit" value="submit" id="sub" class="sbtn">
+            <input type="submit" onclick="cancelRes()" value="cancel" id="cbtn" class="sbtn">  -->
+            <button id="sub" class="sbtn" onclick="submitData()">Submit</button>
+            <button id="cbtn" class="sbtn" onclick="cancelRes()">Cancel</button>
+             </div>
+            </form>   
+    </div>
+
+    <script src="restaurantScript.js"></script>
+</body>
+</html>

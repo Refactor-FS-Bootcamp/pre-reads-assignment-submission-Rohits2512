@@ -1,0 +1,61 @@
+.menu-img{
+    margin: 0 auto;
+    margin-top: 1%;
+    
+    background: linear-gradient(rgb(62, 55, 125) , rgb(203, 203, 221));
+    width: 1300px;
+    height: 650px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+div p{
+    text-align: center;
+    
+}
+#head{
+    color: rgb(223, 236, 52);
+    text-align: center;
+    font-family: cursive;
+    padding: 0px 30px 40px 30px;
+}
+caption{
+    text-align: left;
+    color: rgb(218, 232, 24);
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    font-size: 30px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    
+}
+* table{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 90%;
+    
+}
+table tr td img{
+    width: 200px;
+    height: 160px;
+    
+    padding-left: 10px;
+}
+table tr td{
+    color: white;
+    border-bottom: 1px solid rgb(10, 10, 11);
+    padding-bottom: 20px;
+}
+table tr h3{
+    
+}
+
+#back-btn{
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
